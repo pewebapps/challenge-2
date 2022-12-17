@@ -23,7 +23,7 @@ p {
 }
 
 :root {
-  --brand-color: #678983;
+  --brand-color: #22A39F;
   --dark-color: #181D31;
 }
 
@@ -34,15 +34,28 @@ header {
   align-items: center;
 }
 
-h1 {
+header h1 {
   background-color: var(--brand-color);
-  padding: 20px 10px 20px 160px;
-  margin: 20px 0;
+  padding: 10px 10px 10px 160px;
+  margin: 10px 0;
   color: var(--dark-color);
   text-align: right;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-li {
-  color: white;
+header nav ul li {
+  display: inline-block;
+}
+
+header nav {
+  margin-right: 50px;
+}
+
+header nav ul li a {
+  color: var(--brand-color);
+  font-size: 1.5rem;
+  margin-left: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-bottom: 5px solid var(--brand-color);
 }
