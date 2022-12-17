@@ -85,4 +85,36 @@ header nav ul li a {
 
 .page-wrapper {
   margin: 40px 6%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.page-section {
+  display: flex;
+  gap: 10px;
+}
+
+h2 {
+  text-align: right;
+}
+
+.page-section div {
+  padding-left: 25px;
+  border-left: 3px solid var(--dark-color);
+  padding-bottom: 20px;
+}
+
+.page-section h2 {
+  color: #263159;
+  font-size: 2rem;
+}
+
+/* #work {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+#work article:first-of-type {
+  flex-basis: 100%;
 }
