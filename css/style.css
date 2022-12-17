@@ -95,25 +95,19 @@ header nav ul li a {
   gap: 10px;
 }
 
-h2 {
-  text-align: right;
-}
-
 .page-section div {
   padding-left: 25px;
   border-left: 3px solid var(--dark-color);
   padding-bottom: 20px;
+  flex-basis: 90%;
 }
 
 .page-section h2 {
   color: #263159;
   font-size: 2rem;
+  flex-basis: 10%;
+  text-align: right;
 }
-
-/* #work {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 #work article:first-of-type {
   flex-basis: 100%;
