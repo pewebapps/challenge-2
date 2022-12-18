@@ -156,3 +156,21 @@ header nav ul li a {
 #run-buddy {
   background-image: url(../images/02-run-buddy.jpg);
 }
+
+#contact {
+  align-items: center;
+}
+
+#contact .container ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#contact ul li {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-bottom: 5px solid var(--dark-color);
+}
