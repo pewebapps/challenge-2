@@ -109,6 +109,16 @@ header nav ul li a {
   text-align: right;
 }
 
+#work div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #work article:first-of-type {
   flex-basis: 100%;
 }
+
+.smaller-article {
+  flex-basis: 50%;
+}
+
