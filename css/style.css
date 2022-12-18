@@ -95,7 +95,7 @@ header nav ul li a {
   gap: 10px;
 }
 
-.page-section div {
+.page-section .container {
   padding-left: 25px;
   border-left: 3px solid var(--dark-color);
   padding-bottom: 20px;
@@ -109,7 +109,7 @@ header nav ul li a {
   text-align: right;
 }
 
-#work div {
+#work .container {
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
@@ -126,4 +126,10 @@ header nav ul li a {
 
 .page-section div article {
   border: 3px solid var(--brand-color);
+}
+
+.page-section .container article div {
+  display: inline-block;
+  padding: 5px;
+  background-color: var(--brand-color);
 }
