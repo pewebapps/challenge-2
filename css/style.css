@@ -126,10 +126,33 @@ header nav ul li a {
 
 .page-section div article {
   border: 3px solid var(--brand-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-section .container article div {
   display: inline-block;
   padding: 5px;
   background-color: var(--brand-color);
+}
+
+#surf-report {
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+
+#led-wall {
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+#calculator {
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#pastel-puzzels {
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+
+#run-buddy {
+  background-image: url(../images/02-run-buddy.jpg);
 }
