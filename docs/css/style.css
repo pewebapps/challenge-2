@@ -26,6 +26,11 @@ p {
   --brand-color: #22A39F;
   --dark-color: rgb(24, 29, 49);
   --margin-right: 5%;
+  --hover-gradient: linear-gradient(
+    to bottom,
+    rgba(24, 29, 49, 0.3),
+    rgba(24, 29, 49, 0.3)
+  )
 }
 
 header {
@@ -145,20 +150,40 @@ header nav ul li a {
   background-image: url(../images/02-portfolio-4.jpg);
 }
 
+#surf-report:hover {
+  background-image: var(--hover-gradient), url(../images/02-portfolio-4.jpg);
+}
+
 #led-wall {
   background-image: url(../images/02-portfolio-1.jpg);
+}
+
+#led-wall:hover {
+  background-image: var(--hover-gradient), url(../images/02-portfolio-1.jpg);
 }
 
 #calculator {
   background-image: url(../images/02-portfolio-2.jpg);
 }
 
+#calculator:hover {
+  background-image: var(--hover-gradient), url(../images/02-portfolio-2.jpg);
+}
+
 #pastel-puzzels {
   background-image: url(../images/02-portfolio-3.jpg);
 }
 
+#pastel-puzzels:hover {
+  background-image: var(--hover-gradient), url(../images/02-portfolio-3.jpg);
+}
+
 #run-buddy {
   background-image: url(../images/02-run-buddy.jpg);
+}
+
+#run-buddy:hover {
+  background-image: var(--hover-gradient), url(../images/02-run-buddy.jpg);
 }
 
 #contact {
